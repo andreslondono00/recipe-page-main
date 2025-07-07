@@ -1,3 +1,62 @@
+#background-recipe {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  min-width: 375px
+  max width: 1440px
+  margin 32px auto;
+  }
+
+  @media (min-width: 1440px) {
+    #background-recipe {
+      width: 700px;
+      margin: 48px auto;
+    }
+  }
+    
+.recipe-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 h1 {
   font-family: 'Libertinus Mono', monospace;
+  
+}
+
+body{
+  background-color: hsl(30, 54%, 90%);
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ingredients {
+  color: hsl(14, 45%, 36%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 28px;
+}
+
+.instructions {
+  color: hsl(14, 45%, 36%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 28px;
+}
+
+.nutrition {
+  color: hsl(14, 45%, 36%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 28px;
 }
