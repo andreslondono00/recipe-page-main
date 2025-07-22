@@ -40,5 +40,3 @@ I learned how to use the tables and how to color small containers
 ## Author
 
 - Frontend Mentor - [@andreslondono00](https://www.frontendmentor.io/profile/andreslondono00)
-
-
